@@ -1,0 +1,249 @@
+
+body{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: rgba(230, 219, 219, 0.644);
+}
+nav,footer{
+    background:cornflowerblue;
+    height: 30px;
+    padding-bottom: 50px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+nav img{
+    height: 40px;
+    width: 40px;
+    margin-left: 100px;
+    border-radius: 80%;
+}
+footer{
+    background-color: cornflowerblue;
+    padding: 40px 50px;
+    font-size:14px;
+    height: 30vh;
+}
+.footer-button{
+    border-top: 2px solid white;
+}
+
+.social-icons{
+    font-size: 30px;
+}
+social-icons:hover{
+    color: goldenrod;
+}
+nav a{
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI';
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.welcome{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Images/yoga-8385447_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI';
+    padding-top: 1px;
+}
+img{
+    width: 100%;
+    height: 100vh;
+}
+.welcome h1{
+    font-size: 60px;
+    padding-top: 15px;
+}
+.welcome p1{
+    font-size: 30px;
+    font-style: italic;
+   
+}
+.welcome p{
+    font-size: 25px;
+}
+.welcome-word p{
+background-color:burlywood;
+text-align: center;
+font-size: 25px;
+border-radius: 20px;
+}
+.welcome-word h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.explore-welcome{
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color:white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 1px solid#dcdcdc;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.explore-welcome:hover{
+    background-color: goldenrod;
+    color: #333;
+}
+/*.welcome-tips{
+    padding: 1px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}*/
+
+
+.welcome-tips{
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.welcome-tips img{
+    margin: 20px;  
+    display: flex;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 80%;
+    
+}
+
+.about-target{
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.about-inspiration{
+    text-align:center;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    display: grid;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    
+}
+.about-target img{
+    margin: 2px;
+    width: 90%;
+    height: 50vh;
+    border-radius: 10px;
+    
+
+}
+
+
+.targets1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
+    text-align:left;
+}
+
+form input, form textarea{
+    width: 80%;
+    padding:9px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: goldenrod;
+}
+
+.form-box, .contact-img{
+    width: 50%;
+}
+.form-connect{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.contact-img img{
+    height: 60vh;
+    border-radius: 10px;
+    
+}
+
+.contact a{
+    color: blue;
+}
+.contact{
+    width: 100%;
+    display: flex;
+}
+
+
+.contact-info{
+    padding: 50px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    max-width: 500px;
+    border-radius: 10px;
+
+}
+.contact-item{
+    display: block;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+.contact-item img{
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.contact-item span{
+    font-size: 20px;
+    color: #333333;
+    cursor: pointer;
+}
+.contact-item span:hover{
+    color: goldenrod;
+}
